@@ -328,274 +328,25 @@ footer small { color: var(--muted); font-size: 0.82rem; }
 
 <main id="top">
   <!-- HERO -->
-  <section class="hero">
-    <div class="wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">호기심 많은 중년 아재의</p>
-        <h1>늦깎이<br><em>지구촌</em> 탐구생활</h1>
-        <p class="lead">30년 동안 해외사업을 해 온 회사원이 쉰을 넘기며 기록을 시작했습니다. 새벽에 달리고, 여행지에서 아침 수영을 하고, AI로 일하는 법을 배우며 그 과정을 씁니다.</p>
-        <ul class="creds">
-          <li>정보관리기술사</li>
-          <li>MBA</li>
-          <li>중국지역전문가</li>
-          <li>갈색 푸들 토리의 아빠</li>
-        </ul>
-        <div class="hero-actions">
-          <a class="btn" href="#trip">최근 글 읽기</a>
-          <a class="btn ghost" href="https://www.youtube.com/@RunToriDaddy" target="_blank" rel="noopener">유튜브 @RunToriDaddy ↗</a>
-        </div>
-      </div>
-      <figure class="hero-photo">
-        <img src="assets/penang-life.jpg" alt="페낭의 루프탑 수영장에서 두 팔을 들고 도시 쪽을 바라보는 토리아빠" width="773" height="829">
-        <figcaption><span>PENANG · MALAYSIA</span><span>2026.10</span></figcaption>
-      </figure>
-    </div>
-  </section>
+  <section class="hero" data-mount="hero"></section>
 
   <!-- DEPARTURE BOARD -->
-  <section id="board" class="board-wrap" aria-labelledby="board-title">
-    <div class="wrap">
-      <div class="board">
-        <div class="board-top">
-          <h2 id="board-title">DEPARTURES<small>오늘은 어디로 떠나볼까요</small></h2>
-          <span class="board-clock" id="clock">SEOUL ICN · KST</span>
-        </div>
-        <div class="board-scroll">
-          <table>
-            <thead>
-              <tr><th scope="col">편명</th><th scope="col">행선지</th><th scope="col">최근 글</th><th scope="col">출발</th><th scope="col">상태</th></tr>
-            </thead>
-            <tbody>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224449411293">
-                <td class="flight">BKS 002</td><td class="dest">독서 · 책</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224449411293" target="_blank" rel="noopener">[독서노트]노벨문학상이 다시 궁금해졌다, 앤 카슨의 『빨강의 자서전』</a></td>
-                <td class="when">10.21</td><td class="status boarding">탑승중</td>
-              </tr>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224444702267">
-                <td class="flight">GLB 003</td><td class="dest">스타트업 + 글로벌</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224444702267" target="_blank" rel="noopener">택시 위치도 보이는 시대, 부모님 위치는요?모두의창업에 도전하는 Keep121 이야기</a></td>
-                <td class="when">10.17</td><td class="status boarding">탑승중</td>
-              </tr>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224444603930">
-                <td class="flight">FTH 008</td><td class="dest">신앙생활</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224444603930" target="_blank" rel="noopener">26.10.17 사랑의교회 토비새 말씀 정리</a></td>
-                <td class="when">10.17</td><td class="status boarding">탑승중</td>
-              </tr>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224440703386">
-                <td class="flight">ESY 008</td><td class="dest">일상 생각 · 에세이</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224440703386" target="_blank" rel="noopener">말레이시아 여행을 마치고 돌아온 서울, 한강 산책에서 발견한 행복</a></td>
-                <td class="when">10.13</td><td class="status ontime">정시</td>
-              </tr>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224440506673">
-                <td class="flight">TRV 014</td><td class="dest">달리기 · 여행 · 맛집</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224440506673" target="_blank" rel="noopener">말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의 기록</a></td>
-                <td class="when">10.13</td><td class="status ontime">정시</td>
-              </tr>
-              <tr class="row" data-href="https://blog.naver.com/joekang/224431633562">
-                <td class="flight">AIX 013</td><td class="dest">AI · Tech 인사이트</td>
-                <td class="post"><a href="https://blog.naver.com/joekang/224431633562" target="_blank" rel="noopener">코딩을 몰라도 여행 사이트를 만든다? 클로드 코드로 만든 나의 30년 여행 기록</a></td>
-                <td class="when">10.05</td><td class="status ontime">정시</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="board-foot">편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다</p>
-      </div>
-    </div>
-  </section>
+  <section id="board" class="board-wrap" aria-labelledby="board-title" data-mount="board"></section>
 
   <!-- MALAYSIA TRIP -->
-  <section id="trip" class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="label">최근 여정 · 2026.10.06 – 10.13</span>
-          <h2>쿠알라룸푸르에서 페낭까지, 7일</h2>
-        </div>
-        <a class="more" href="https://blog.naver.com/joekang" target="_blank" rel="noopener">여행 글 전체 보기</a>
-      </div>
-      <div class="trip">
-        <figure>
-          <img src="assets/kl-food.jpg" alt="바쿠테, 굴 오믈렛, 뇨냐 요리, 두리안 빙수를 그린 말레이시아 맛집 투어 일러스트" width="687" height="1024" loading="lazy">
-          <figcaption>7일간 스무 끼. 바쿠테부터 두리안 빙수까지.</figcaption>
-        </figure>
-        <ol class="itin">
-          <li><a href="https://blog.naver.com/joekang/224436038270" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 2</b>10.07 수</span>
-            <span class="t">메르데카 광장에서 부킷빈탕 야시장까지</span>
-            <span class="place">KUALA LUMPUR</span>
-            <span class="p">여행을 오면 평소보다 많이 걷게 됩니다. 센트럴마켓과 차이나타운을 지나 야시장으로.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224436050416" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 3</b>10.08 목</span>
-            <span class="t">여행하며 생각한 인생의 레거시</span>
-            <span class="place">KUALA LUMPUR</span>
-            <span class="p">아침 수영, 바투 동굴, 이슬람 예술 박물관, 그리고 페트로나스 트윈타워의 야경.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224436869223" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 4</b>10.09 금</span>
-            <span class="t">페낭 조지타운 맛집 투어</span>
-            <span class="place">PENANG</span>
-            <span class="p">바쿠테부터 굴전, 뇨냐 요리와 딸기 빙수까지. 여행을 가장한 먹방의 하루.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224438196441" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 5</b>10.10 토</span>
-            <span class="t">극락사와 밤하늘의 불꽃놀이</span>
-            <span class="place">PENANG</span>
-            <span class="p">딤섬으로 시작해 극락사에 오르고, 인도 음식과 불꽃놀이로 마무리.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224438217526" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 6</b>10.11 일</span>
-            <span class="t">은퇴하면 페낭에서 한 달 살아볼까?</span>
-            <span class="place">PENANG → KL</span>
-            <span class="p">여행을 마무리하며 떠올린 인생 2막의 하루.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224440143885" target="_blank" rel="noopener">
-            <span class="d"><b>DAY 7</b>10.12 월</span>
-            <span class="t">마지막 날, 차이나타운에서 발견한 여행의 진짜 매력</span>
-            <span class="place">KUALA LUMPUR</span>
-            <span class="p">새벽 3시에 한 번 깨고, 6시에 일어난 마지막 날.</span>
-          </a></li>
-          <li><a href="https://blog.naver.com/joekang/224440703386" target="_blank" rel="noopener">
-            <span class="d"><b>귀국</b>10.13 화</span>
-            <span class="t">돌아온 서울, 한강 산책에서 발견한 행복</span>
-            <span class="place">SEOUL</span>
-            <span class="p">인천공항에서 집까지 두 시간. 오후 5시, 오랜만에 토리와 산책에 나섰습니다.</span>
-          </a></li>
-        </ol>
-      </div>
-    </div>
-  </section>
+  <section id="trip" class="section" data-mount="trip"></section>
 
   <!-- TRAVEL LOG -->
-  <section id="log" class="band section">
-    <div class="wrap">
-      <div class="log-head">
-        <div>
-          <span class="label">여행 기록 · 1996 — 2026</span>
-          <h2>30년의 기록, 그리고 이어질 여정</h2>
-          <p>1996년 첫 출장부터 주재원 생활, 가족 여행까지 지나온 도시들을 지도와 연표로 정리하고 있습니다.</p>
-        </div>
-        <dl class="stats">
-          <div><dt>도시</dt><dd>101</dd></div>
-          <div><dt>나라</dt><dd>15</dd></div>
-          <div><dt>여행</dt><dd>69</dd></div>
-        </dl>
-      </div>
-      <div class="strip">
-        <a href="https://blog.naver.com/joekang/224403236379" target="_blank" rel="noopener">
-          <img src="assets/weihai.jpg" alt="웨이하이 바다 위로 지는 노을과 항구의 크레인" width="773" height="435" loading="lazy">
-          <div class="cap"><span>웨이하이에서 생각한 노년의 삶</span><span>CN · 09.07</span></div>
-        </a>
-        <a href="https://blog.naver.com/joekang/224425216936" target="_blank" rel="noopener">
-          <img src="assets/andong.jpg" alt="추석 귀성길에 들른 안동의 풍경" width="773" height="435" loading="lazy">
-          <div class="cap"><span>추석 안동 가는 길, 악어봉과 하회마을</span><span>KR · 09.28</span></div>
-        </a>
-        <a href="https://blog.naver.com/joekang/224418293659" target="_blank" rel="noopener">
-          <img src="assets/seokchon.jpg" alt="석촌호수 호수 아트전의 동물 조형물" width="773" height="435" loading="lazy">
-          <div class="cap"><span>석촌호수 「호수 아트전 동물」</span><span>KR · 09.21</span></div>
-        </a>
-        <a href="https://blog.naver.com/joekang/224438196441" target="_blank" rel="noopener">
-          <img src="assets/penang-day2.jpg" alt="페낭 여행 2일차 풍경" width="773" height="464" loading="lazy">
-          <div class="cap"><span>페낭 2일차, 극락사와 불꽃놀이</span><span>MY · 10.11</span></div>
-        </a>
-      </div>
-      <div class="mapnote">
-        <img src="assets/travel-site.png" alt="지구본 위에 방문 도시를 점으로 표시한 '나의 여행 지도' 사이트 화면" width="773" height="390" loading="lazy">
-        <div>
-          <span class="label">사이드 프로젝트</span>
-          <h3>코딩을 몰라도 여행 사이트를 만든다?</h3>
-          <p>클로드 코드로 30년 여행 기록을 데이터로 만들고, 지도와 연표가 있는 사이트로 옮긴 과정입니다.</p>
-          <div style="display:flex;flex-wrap:wrap;gap:12px 24px">
-            <a class="more" href="https://holyjoekang.github.io/my-travel-map/" target="_blank" rel="noopener">여행 지도 열기</a>
-            <a class="more" href="https://blog.naver.com/joekang/224431633562" target="_blank" rel="noopener">만든 과정 읽기</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <section id="log" class="band section" data-mount="log"></section>
 
   <!-- AI -->
-  <section id="ai" class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="label">AI · Tech 인사이트</span>
-          <h2>물어보기에서 맡기기로</h2>
-        </div>
-        <a class="more" href="https://blog.naver.com/joekang" target="_blank" rel="noopener">AI 글 전체 보기</a>
-      </div>
-      <div class="ai">
-        <div class="ai-hook">
-          <div class="year">1999</div>
-          <blockquote>정보서비스팀 3년 차 사원이 매일 아침 세계 뉴스를 모아 주는 AI 에이전트 사업계획서를 썼습니다.</blockquote>
-          <p class="src">26년이 지나 그 일을 진짜로 AI에게 맡겨 본 이야기. <a href="https://blog.naver.com/joekang/224380519117" target="_blank" rel="noopener">[Ch.2] AI에게 시장조사를 맡겨봤더니?</a></p>
-        </div>
-        <ul class="posts">
-          <li><a href="https://blog.naver.com/joekang/224409917433" target="_blank" rel="noopener">
-            <span class="pt">AI에게 "물어보기"와 "맡기기"는 다르더군요. Claude Chat, Cowork, Code 정리</span><span class="pd">09.13</span>
-            <span class="ps">"채팅이랑 뭐가 달라요?" 주변에서 꼭 나오는 질문에 대한 답.</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224409930234" target="_blank" rel="noopener">
-            <span class="pt">토큰이 뭐길래? AI를 제대로 쓰려면 꼭 알아야 할 토큰 이야기</span><span class="pd">09.13</span>
-            <span class="ps">버스 토큰이 생각난다면 당신은 50플러스.</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224409909188" target="_blank" rel="noopener">
-            <span class="pt">Claude 사용량, 왜 자꾸 한도에 걸릴까?</span><span class="pd">09.13</span>
-            <span class="ps">Pro 플랜 실제 사용량 화면으로 살펴본 한도의 원리.</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224376763450" target="_blank" rel="noopener">
-            <span class="pt">클로드 사용법, 기능보다 먼저 알아야 할 5가지</span><span class="pd">08.12</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224376736782" target="_blank" rel="noopener">
-            <span class="pt">엑셀 업무 자동화, AI만 믿어도 되나요?</span><span class="pd">08.12</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224372642368" target="_blank" rel="noopener">
-            <span class="pt">생성형 AI, 이제는 '검색창'이 아니라 '개발환경'이다</span><span class="pd">08.09</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+  <section id="ai" class="section" data-mount="ai"></section>
 
   <!-- BOOK -->
-  <section id="book" class="book section">
-    <div class="wrap">
-      <img src="assets/book-cover.jpg" alt="《AI plus 해외영업》 표지 시안" width="584" height="867" loading="lazy">
-      <div class="book-copy">
-        <span class="label">집필 중인 책</span>
-        <h2>《AI plus 해외영업》</h2>
-        <p class="sub">30년 글로벌 사업개발자의 AI 실전 매뉴얼. 될 나라를 고르고, 바이어를 찾고, 계약까지. 혼자서도 해내는 90일 실행 설계를 블로그에 먼저 연재합니다.</p>
-        <ol class="chapters">
-          <li><a href="https://blog.naver.com/joekang/224379743346" target="_blank" rel="noopener"><span class="cn">연재 시작</span><span class="ct">《AI plus 해외영업》을 쓰기 시작했습니다</span><span class="cd">08.15</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224380001187" target="_blank" rel="noopener"><span class="cn">프롤로그</span><span class="ct">AI로 해외사업을 다시 짠다는 것</span><span class="cd">08.16</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224380508321" target="_blank" rel="noopener"><span class="cn">CH.1</span><span class="ct">AI 시대, 글로벌 사업개발은 어떻게 달라질까?</span><span class="cd">08.16</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224380519117" target="_blank" rel="noopener"><span class="cn">CH.2</span><span class="ct">AI에게 시장조사를 맡겨봤더니? 2026년 AI가 달라진 3가지</span><span class="cd">08.16</span></a></li>
-          <li class="todo"><a href="https://blog.naver.com/joekang" target="_blank" rel="noopener"><span class="cn">CH.3</span><span class="ct">다음 장 준비 중</span><span class="cd">—</span></a></li>
-        </ol>
-      </div>
-    </div>
-  </section>
+  <section id="book" class="book section" data-mount="book"></section>
 
   <!-- ESSAYS & FAITH -->
-  <section class="section">
-    <div class="wrap two">
-      <div class="col">
-        <span class="label">일상 생각 · 에세이</span>
-        <h3>같은 아침 6시</h3>
-        <p>미라클 모닝, 계절의 변화, 그리고 AI 시대에 생각하는 힘에 대하여.</p>
-        <ul class="posts">
-          <li><a href="https://blog.naver.com/joekang/224429004027" target="_blank" rel="noopener"><span class="pt">같은 아침 6시, 누구는 운동을 시작하고 누구는 아직 어젯밤에 머물러 있습니다</span><span class="pd">10.02</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224419571888" target="_blank" rel="noopener"><span class="pt">AI를 많이 쓰면 사람이 점점 생각을 덜 하게 될까요?</span><span class="pd">09.22</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224372632195" target="_blank" rel="noopener"><span class="pt">입추는 입추네요. 가을이 오고 있습니다</span><span class="pd">08.09</span></a></li>
-        </ul>
-      </div>
-      <div class="col">
-        <span class="label">신앙생활</span>
-        <h3>시작보다 중요한 것</h3>
-        <p>토요비전새벽예배와 주일 설교에서 붙잡은 말씀을 기록합니다.</p>
-        <ul class="posts">
-          <li><a href="https://blog.naver.com/joekang/224395904887" target="_blank" rel="noopener"><span class="pt">하나님은 어떤 간증을 더 사랑하실까</span><span class="pd">08.31</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224394775309" target="_blank" rel="noopener"><span class="pt">26.8.29 토비새, 시작보다 중요한 것, 기도</span><span class="pd">08.30</span></a></li>
-          <li><a href="https://blog.naver.com/joekang/224380462568" target="_blank" rel="noopener"><span class="pt">사랑의교회 주일설교, 죄로부터 해방선언 (로마서)</span><span class="pd">08.16</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+  <section class="section" data-mount="columns"></section>
 
   <!-- ABOUT -->
   <section id="about" class="section" style="padding-top: 0;">
@@ -639,7 +390,7 @@ footer small { color: var(--muted); font-size: 0.82rem; }
   <div class="wrap">
     <div>
       <a class="brand" href="#top"><b>토리아빠의 50플러스 인사이트</b></a><br>
-      <small>디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.15 기준)에서 가져왔습니다.</small>
+      <small data-mount="foot"></small>
     </div>
     <div class="links">
       <a class="btn" href="https://blog.naver.com/joekang" target="_blank" rel="noopener">네이버 블로그 ↗</a>
@@ -648,23 +399,6 @@ footer small { color: var(--muted); font-size: 0.82rem; }
   </div>
 </footer>
 
-<script>
-  // Board rows: whole row is clickable, the inner link stays the keyboard target.
-  document.querySelectorAll('.board tr.row').forEach(function (row) {
-    row.addEventListener('click', function (e) {
-      if (e.target.closest('a')) return;
-      row.querySelector('a').click();
-    });
-  });
-  // Live Seoul clock on the departure board.
-  var clock = document.getElementById('clock');
-  function tick() {
-    try {
-      var t = new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date());
-      clock.textContent = 'SEOUL ICN · ' + t + ' KST';
-    } catch (e) {}
-  }
-  tick(); setInterval(tick, 30000);
-</script>
+<script src="assets/app.js" defer></script>
 </body>
 </html>
