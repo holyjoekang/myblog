@@ -1,6 +1,6 @@
 {
- "updated": "2026.10.24",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.24 기준)에서 가져왔습니다.",
+ "updated": "2026.10.25",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.25 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,11 +26,19 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
-    "code": "BKS 002",
+    "code": "ESY 009",
+    "dest": "일상 생각 · 에세이",
+    "url": "https://blog.naver.com/joekang/224452770614",
+    "title": "세 번째 30년, 이제 받은 것을 돌려줄 시간입니다",
+    "date": "10.25",
+    "status": "boarding"
+   },
+   {
+    "code": "BKS 003",
     "dest": "독서 · 책",
-    "url": "https://blog.naver.com/joekang/224449411293",
-    "title": "[독서노트]노벨문학상이 다시 궁금해졌다, 앤 카슨의 『빨강의 자서전』",
-    "date": "10.21",
+    "url": "https://blog.naver.com/joekang/224452764971",
+    "title": "[독서노트] 최재붕의 AI 트렌드 2027, 굳이 책으로 읽어야 할까?",
+    "date": "10.25",
     "status": "boarding"
    },
    {
@@ -39,7 +47,7 @@
     "url": "https://blog.naver.com/joekang/224444702267",
     "title": "택시 위치도 보이는 시대, 부모님 위치는요?모두의창업에 도전하는 Keep121 이야기",
     "date": "10.17",
-    "status": "boarding"
+    "status": "ontime"
    },
    {
     "code": "FTH 008",
@@ -47,18 +55,10 @@
     "url": "https://blog.naver.com/joekang/224444603930",
     "title": "26.10.17 사랑의교회 토비새 말씀 정리",
     "date": "10.17",
-    "status": "boarding"
-   },
-   {
-    "code": "ESY 008",
-    "dest": "일상 생각 · 에세이",
-    "url": "https://blog.naver.com/joekang/224440703386",
-    "title": "말레이시아 여행을 마치고 돌아온 서울, 한강 산책에서 발견한 행복",
-    "date": "10.13",
     "status": "ontime"
    },
    {
-    "code": "TRV 014",
+    "code": "TRV 013",
     "dest": "달리기 · 여행 · 맛집",
     "url": "https://blog.naver.com/joekang/224440506673",
     "title": "말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의 기록",
@@ -66,7 +66,7 @@
     "status": "ontime"
    },
    {
-    "code": "AIX 013",
+    "code": "AIX 012",
     "dest": "AI · Tech 인사이트",
     "url": "https://blog.naver.com/joekang/224431633562",
     "title": "코딩을 몰라도 여행 사이트를 만든다? 클로드 코드로 만든 나의 30년 여행 기록",
@@ -334,6 +334,11 @@
    "category": "일상 생각,에세이",
    "posts": [
     {
+     "url": "https://blog.naver.com/joekang/224452770614",
+     "title": "세 번째 30년, 이제 받은 것을 돌려줄 시간입니다",
+     "date": "10.25"
+    },
+    {
      "url": "https://blog.naver.com/joekang/224440703386",
      "title": "말레이시아 여행을 마치고 돌아온 서울, 한강 산책에서 발견한 행복",
      "date": "10.13"
@@ -342,11 +347,6 @@
      "url": "https://blog.naver.com/joekang/224429004027",
      "title": "같은 아침 6시, 누구는 운동을 시작하고 누구는 아직 어젯밤에 머물러 있습니다",
      "date": "10.02"
-    },
-    {
-     "url": "https://blog.naver.com/joekang/224419571888",
-     "title": "AI를 많이 쓰면 사람이 점점 생각을 덜 하게 될까요?",
-     "date": "09.22"
     }
    ]
   },
