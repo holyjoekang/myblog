@@ -1,6 +1,6 @@
 {
- "updated": "2026.10.27",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.27 기준)에서 가져왔습니다.",
+ "updated": "2026.10.28",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.28 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,19 +26,19 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
-    "code": "ESY 010",
+    "code": "BKS 004",
+    "dest": "독서 · 책",
+    "url": "https://blog.naver.com/joekang/224456162575",
+    "title": "딸기 농사인 줄 알았는데, 갑자기 호러물이 됐다? 《빵충 사육 준수 사항》",
+    "date": "10.28",
+    "status": "boarding"
+   },
+   {
+    "code": "ESY 009",
     "dest": "일상 생각 · 에세이",
     "url": "https://blog.naver.com/joekang/224453868373",
     "title": "나이가 들면 쉽게 상처받는다",
     "date": "10.26",
-    "status": "boarding"
-   },
-   {
-    "code": "BKS 003",
-    "dest": "독서 · 책",
-    "url": "https://blog.naver.com/joekang/224452764971",
-    "title": "[독서노트] 최재붕의 AI 트렌드 2027, 굳이 책으로 읽어야 할까?",
-    "date": "10.25",
     "status": "boarding"
    },
    {
