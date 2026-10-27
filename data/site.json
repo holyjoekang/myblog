@@ -1,6 +1,6 @@
 {
- "updated": "2026.10.26",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.26 기준)에서 가져왔습니다.",
+ "updated": "2026.10.27",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.10.27 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,11 +26,11 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
-    "code": "ESY 009",
+    "code": "ESY 010",
     "dest": "일상 생각 · 에세이",
-    "url": "https://blog.naver.com/joekang/224452770614",
-    "title": "세 번째 30년, 이제 받은 것을 돌려줄 시간입니다",
-    "date": "10.25",
+    "url": "https://blog.naver.com/joekang/224453868373",
+    "title": "나이가 들면 쉽게 상처받는다",
+    "date": "10.26",
     "status": "boarding"
    },
    {
@@ -58,7 +58,7 @@
     "status": "ontime"
    },
    {
-    "code": "TRV 013",
+    "code": "TRV 012",
     "dest": "달리기 · 여행 · 맛집",
     "url": "https://blog.naver.com/joekang/224440506673",
     "title": "말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의 기록",
@@ -334,6 +334,11 @@
    "category": "일상 생각,에세이",
    "posts": [
     {
+     "url": "https://blog.naver.com/joekang/224453868373",
+     "title": "나이가 들면 쉽게 상처받는다",
+     "date": "10.26"
+    },
+    {
      "url": "https://blog.naver.com/joekang/224452770614",
      "title": "세 번째 30년, 이제 받은 것을 돌려줄 시간입니다",
      "date": "10.25"
@@ -342,11 +347,6 @@
      "url": "https://blog.naver.com/joekang/224440703386",
      "title": "말레이시아 여행을 마치고 돌아온 서울, 한강 산책에서 발견한 행복",
      "date": "10.13"
-    },
-    {
-     "url": "https://blog.naver.com/joekang/224429004027",
-     "title": "같은 아침 6시, 누구는 운동을 시작하고 누구는 아직 어젯밤에 머물러 있습니다",
-     "date": "10.02"
     }
    ]
   },
