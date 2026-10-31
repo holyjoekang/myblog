@@ -26,6 +26,14 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
+    "code": "TRV 013",
+    "dest": "달리기 · 여행 · 맛집",
+    "url": "https://blog.naver.com/joekang/224460326630",
+    "title": "선배 만나러 갔다가, 살아보고 싶어진 공주",
+    "date": "10.31",
+    "status": "boarding"
+   },
+   {
     "code": "BKS 004",
     "dest": "독서 · 책",
     "url": "https://blog.naver.com/joekang/224456162575",
@@ -34,7 +42,7 @@
     "status": "boarding"
    },
    {
-    "code": "ESY 009",
+    "code": "ESY 008",
     "dest": "일상 생각 · 에세이",
     "url": "https://blog.naver.com/joekang/224453868373",
     "title": "나이가 들면 쉽게 상처받는다",
@@ -55,14 +63,6 @@
     "url": "https://blog.naver.com/joekang/224444603930",
     "title": "26.10.17 사랑의교회 토비새 말씀 정리",
     "date": "10.17",
-    "status": "ontime"
-   },
-   {
-    "code": "TRV 012",
-    "dest": "달리기 · 여행 · 맛집",
-    "url": "https://blog.naver.com/joekang/224440506673",
-    "title": "말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의 기록",
-    "date": "10.13",
     "status": "ontime"
    },
    {
@@ -168,39 +168,39 @@
   ],
   "strip": [
    {
-    "url": "https://blog.naver.com/joekang/224403236379",
-    "src": "assets/weihai.jpg",
-    "alt": "웨이하이 바다 위로 지는 노을과 항구의 크레인",
+    "url": "https://blog.naver.com/joekang/224460326630",
+    "src": "assets/blog/224460326630.jpg",
+    "alt": "선배 만나러 갔다가, 살아보고 싶어진 공주",
     "w": 773,
-    "h": 435,
-    "title": "웨이하이에서 생각한 노년의 삶",
-    "meta": "CN · 09.07"
+    "h": 580,
+    "title": "선배 만나러 갔다가, 살아보고 싶어진 공주",
+    "meta": "KR · 10.31"
    },
    {
-    "url": "https://blog.naver.com/joekang/224425216936",
-    "src": "assets/andong.jpg",
-    "alt": "추석 귀성길에 들른 안동의 풍경",
+    "url": "https://blog.naver.com/joekang/224440506673",
+    "src": "assets/blog/224440506673.jpg",
+    "alt": "말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의 기록",
     "w": 773,
-    "h": 435,
-    "title": "추석 안동 가는 길, 악어봉과 하회마을",
-    "meta": "KR · 09.28"
+    "h": 580,
+    "title": "말레이시아 KL·페낭 맛집 투어, 7일간 스무 끼의",
+    "meta": "MY · 10.13"
    },
    {
-    "url": "https://blog.naver.com/joekang/224418293659",
-    "src": "assets/seokchon.jpg",
-    "alt": "석촌호수 호수 아트전의 동물 조형물",
+    "url": "https://blog.naver.com/joekang/224440143885",
+    "src": "assets/blog/224440143885.jpg",
+    "alt": "쿠알라룸푸르 마지막 날, 차이나타운에서 발견한 여행의 진짜 매력",
     "w": 773,
-    "h": 435,
-    "title": "석촌호수 「호수 아트전 동물」",
-    "meta": "KR · 09.21"
+    "h": 580,
+    "title": "쿠알라룸푸르 마지막 날, 차이나타운에서 발견한 여행",
+    "meta": "MY · 10.13"
    },
    {
-    "url": "https://blog.naver.com/joekang/224438196441",
-    "src": "assets/penang-day2.jpg",
-    "alt": "페낭 여행 2일차 풍경",
+    "url": "https://blog.naver.com/joekang/224438217526",
+    "src": "assets/blog/224438217526.jpg",
+    "alt": "은퇴하면 페낭에서 한 달 살아볼까? 여행에서 발견한 인생 2막",
     "w": 773,
-    "h": 464,
-    "title": "페낭 2일차, 극락사와 불꽃놀이",
+    "h": 580,
+    "title": "은퇴하면 페낭에서 한 달 살아볼까? 여행에서 발견한",
     "meta": "MY · 10.11"
    }
   ],
