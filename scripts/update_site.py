@@ -50,8 +50,9 @@ for col in site["columns"]:
 CC = {"CN": "중국|베이징|상하이|상해|칭다오|웨이하이|다롄|대련|충칭|청두|시안|광저우|선전|홍콩", "MY": "말레이시아|쿠알라|페낭",
       "JP": "일본|도쿄|오사카|후쿠오카|교토", "VN": "베트남|하노이|다낭|호치민", "TH": "태국|방콕|치앙마이", "US": "미국|뉴욕|샌프란시스코",
       "TW": "대만|타이베이", "SG": "싱가포르", "PH": "필리핀|세부", "ID": "인도네시아|발리"}
-strip, have = site["log"]["strip"], {s["url"] for s in site["log"]["strip"]}
-for i in sorted((i for i in items if i["cat"] == "달리기,여행,맛집" and i["img"] and i["url"] not in have),
+strip = site["log"]["strip"]
+last = max(int(s["url"].rsplit("/", 1)[-1]) for s in strip)  # 띠에 있는 가장 새 글보다 새 글만 (글 번호는 늘어나기만 한다)
+for i in sorted((i for i in items if i["cat"] == "달리기,여행,맛집" and i["img"] and int(i["url"].rsplit("/", 1)[-1]) > last),
                 key=lambda i: i["when"]):
     no = i["url"].rsplit("/", 1)[-1]
     try:
