@@ -1,6 +1,6 @@
 {
- "updated": "2026.11.03",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.03 기준)에서 가져왔습니다.",
+ "updated": "2026.11.04",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.04 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,6 +26,14 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
+    "code": "AIX 012",
+    "dest": "AI · Tech 인사이트",
+    "url": "https://blog.naver.com/joekang/224463954572",
+    "title": "나를 위해 만든 작은 지하철 앱, '바로타'를 소개합니다",
+    "date": "11.03",
+    "status": "boarding"
+   },
+   {
     "code": "TRV 013",
     "dest": "달리기 · 여행 · 맛집",
     "url": "https://blog.naver.com/joekang/224460326630",
@@ -47,7 +55,7 @@
     "url": "https://blog.naver.com/joekang/224453868373",
     "title": "나이가 들면 쉽게 상처받는다",
     "date": "10.26",
-    "status": "boarding"
+    "status": "ontime"
    },
    {
     "code": "GLB 003",
@@ -63,14 +71,6 @@
     "url": "https://blog.naver.com/joekang/224444603930",
     "title": "26.10.17 사랑의교회 토비새 말씀 정리",
     "date": "10.17",
-    "status": "ontime"
-   },
-   {
-    "code": "AIX 012",
-    "dest": "AI · Tech 인사이트",
-    "url": "https://blog.naver.com/joekang/224431633562",
-    "title": "코딩을 몰라도 여행 사이트를 만든다? 클로드 코드로 만든 나의 30년 여행 기록",
-    "date": "10.05",
     "status": "ontime"
    }
   ]
@@ -242,6 +242,12 @@
   },
   "posts": [
    {
+    "url": "https://blog.naver.com/joekang/224463954572",
+    "title": "나를 위해 만든 작은 지하철 앱, '바로타'를 소개합니다",
+    "date": "11.03",
+    "sub": ""
+   },
+   {
     "url": "https://blog.naver.com/joekang/224431633562",
     "title": "코딩을 몰라도 여행 사이트를 만든다? 클로드 코드로 만든 나의 30년 여행 기록",
     "date": "10.05",
@@ -268,12 +274,6 @@
    {
     "url": "https://blog.naver.com/joekang/224380519117",
     "title": "[Ch.2] AI에게 시장조사를 맡겨봤더니? 2026년 AI가 달라진 3가지",
-    "date": "08.16",
-    "sub": ""
-   },
-   {
-    "url": "https://blog.naver.com/joekang/224380508321",
-    "title": "[Ch.1]AI 시대, 글로벌 사업개발은 어떻게 달라질까?",
     "date": "08.16",
     "sub": ""
    }
