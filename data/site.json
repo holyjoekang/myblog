@@ -1,6 +1,6 @@
 {
- "updated": "2026.11.09",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.09 기준)에서 가져왔습니다.",
+ "updated": "2026.11.10",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.10 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,11 +26,11 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
-    "code": "AIX 012",
+    "code": "AIX 013",
     "dest": "AI · Tech 인사이트",
-    "url": "https://blog.naver.com/joekang/224463954572",
-    "title": "나를 위해 만든 작은 지하철 앱, '바로타'를 소개합니다",
-    "date": "11.03",
+    "url": "https://blog.naver.com/joekang/224470756669",
+    "title": "AI 시대, 더 귀해지는 것은 사람의 판단력이다",
+    "date": "11.09",
     "status": "boarding"
    },
    {
@@ -39,7 +39,7 @@
     "url": "https://blog.naver.com/joekang/224460326630",
     "title": "선배 만나러 갔다가, 살아보고 싶어진 공주",
     "date": "10.31",
-    "status": "boarding"
+    "status": "ontime"
    },
    {
     "code": "BKS 004",
@@ -47,10 +47,10 @@
     "url": "https://blog.naver.com/joekang/224456162575",
     "title": "딸기 농사인 줄 알았는데, 갑자기 호러물이 됐다? 《빵충 사육 준수 사항》",
     "date": "10.28",
-    "status": "boarding"
+    "status": "ontime"
    },
    {
-    "code": "ESY 008",
+    "code": "ESY 007",
     "dest": "일상 생각 · 에세이",
     "url": "https://blog.naver.com/joekang/224453868373",
     "title": "나이가 들면 쉽게 상처받는다",
@@ -242,6 +242,12 @@
   },
   "posts": [
    {
+    "url": "https://blog.naver.com/joekang/224470756669",
+    "title": "AI 시대, 더 귀해지는 것은 사람의 판단력이다",
+    "date": "11.09",
+    "sub": ""
+   },
+   {
     "url": "https://blog.naver.com/joekang/224463954572",
     "title": "나를 위해 만든 작은 지하철 앱, '바로타'를 소개합니다",
     "date": "11.03",
@@ -270,12 +276,6 @@
     "title": "Claude 사용량, 왜 자꾸 한도에 걸릴까?",
     "date": "09.13",
     "sub": "Pro 플랜 실제 사용량 화면으로 살펴본 한도의 원리."
-   },
-   {
-    "url": "https://blog.naver.com/joekang/224380519117",
-    "title": "[Ch.2] AI에게 시장조사를 맡겨봤더니? 2026년 AI가 달라진 3가지",
-    "date": "08.16",
-    "sub": ""
    }
   ],
   "category": "AI , Tech 인사이트"
