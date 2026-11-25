@@ -1,6 +1,6 @@
 {
- "updated": "2026.11.24",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.24 기준)에서 가져왔습니다.",
+ "updated": "2026.11.25",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.25 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,19 +26,19 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
+    "code": "TRV 014",
+    "dest": "달리기 · 여행 · 맛집",
+    "url": "https://blog.naver.com/joekang/224490848342",
+    "title": "중국 청두 미슐랭 1스타 맛집, '마왕즈(马旺子)'에서 제대로 맛본 쓰촨의 한 상",
+    "date": "11.25",
+    "status": "boarding"
+   },
+   {
     "code": "AIX 013",
     "dest": "AI · Tech 인사이트",
     "url": "https://blog.naver.com/joekang/224470756669",
     "title": "AI 시대, 더 귀해지는 것은 사람의 판단력이다",
     "date": "11.09",
-    "status": "boarding"
-   },
-   {
-    "code": "TRV 013",
-    "dest": "달리기 · 여행 · 맛집",
-    "url": "https://blog.naver.com/joekang/224460326630",
-    "title": "선배 만나러 갔다가, 살아보고 싶어진 공주",
-    "date": "10.31",
     "status": "ontime"
    },
    {
@@ -66,7 +66,7 @@
     "status": "ontime"
    },
    {
-    "code": "FTH 008",
+    "code": "FTH 007",
     "dest": "신앙생활",
     "url": "https://blog.naver.com/joekang/224444603930",
     "title": "26.10.17 사랑의교회 토비새 말씀 정리",
@@ -168,6 +168,15 @@
   ],
   "strip": [
    {
+    "url": "https://blog.naver.com/joekang/224490848342",
+    "src": "assets/blog/224490848342.jpg",
+    "alt": "중국 청두 미슐랭 1스타 맛집, '마왕즈(马旺子)'에서 제대로 맛본 쓰촨의 한 상",
+    "w": 773,
+    "h": 580,
+    "title": "중국 청두 미슐랭 1스타 맛집, '마왕즈(马旺子)'",
+    "meta": "CN · 11.25"
+   },
+   {
     "url": "https://blog.naver.com/joekang/224460326630",
     "src": "assets/blog/224460326630.jpg",
     "alt": "선배 만나러 갔다가, 살아보고 싶어진 공주",
@@ -193,15 +202,6 @@
     "h": 435,
     "title": "추석 안동 가는 길, 악어봉과 하회마을",
     "meta": "KR · 09.28"
-   },
-   {
-    "url": "https://blog.naver.com/joekang/224418293659",
-    "src": "assets/seokchon.jpg",
-    "alt": "석촌호수 호수 아트전의 동물 조형물",
-    "w": 773,
-    "h": 435,
-    "title": "석촌호수 「호수 아트전 동물」",
-    "meta": "KR · 09.21"
    }
   ],
   "project": {
