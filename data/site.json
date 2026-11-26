@@ -1,6 +1,6 @@
 {
- "updated": "2026.11.25",
- "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.25 기준)에서 가져왔습니다.",
+ "updated": "2026.11.26",
+ "footNote": "디자인 초안 · 글과 사진은 네이버 블로그 RSS(최근 50편, 2026.11.26 기준)에서 가져왔습니다.",
  "hero": {
   "eyebrow": "호기심 많은 중년 아재의",
   "titleHtml": "늦깎이<br><em>지구촌</em> 탐구생활",
@@ -26,6 +26,14 @@
   "foot": "편명 숫자 = 최근 글 50편 중 해당 카테고리 글 수 · 행을 누르면 블로그 글로 이동합니다",
   "rows": [
    {
+    "code": "BKS 005",
+    "dest": "독서 · 책",
+    "url": "https://blog.naver.com/joekang/224492562185",
+    "title": "[독서노트 1/2] 테오, 인생의 마지막에 무엇을 나누고 싶으신가요?",
+    "date": "11.26",
+    "status": "boarding"
+   },
+   {
     "code": "TRV 014",
     "dest": "달리기 · 여행 · 맛집",
     "url": "https://blog.naver.com/joekang/224490848342",
@@ -34,19 +42,11 @@
     "status": "boarding"
    },
    {
-    "code": "AIX 013",
+    "code": "AIX 012",
     "dest": "AI · Tech 인사이트",
     "url": "https://blog.naver.com/joekang/224470756669",
     "title": "AI 시대, 더 귀해지는 것은 사람의 판단력이다",
     "date": "11.09",
-    "status": "ontime"
-   },
-   {
-    "code": "BKS 004",
-    "dest": "독서 · 책",
-    "url": "https://blog.naver.com/joekang/224456162575",
-    "title": "딸기 농사인 줄 알았는데, 갑자기 호러물이 됐다? 《빵충 사육 준수 사항》",
-    "date": "10.28",
     "status": "ontime"
    },
    {
